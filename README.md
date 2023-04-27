@@ -3,7 +3,7 @@ Reddit.com is a massive social media site with thousands of unique communities t
 
 ### This project contains a few files:
 
-For the web-scraping in this project, I collect information across 8 pages of reddit's community rankings. Each page contains 250 subreddits in descending order of size, so my final dataset contains 2,000 subreddits (8x250) total. My process is documented in two R scripts:
+For the web-scraping in this project, I collect information across 8 pages of reddit's [community rankings](https://www.reddit.com/best/communities/1/). Each page contains 250 subreddits in descending order of size, so my final dataset contains 2,000 subreddits (8x250) total. My process is documented in two R scripts:
 
 [reddit_scraping_script.R](../main/reddit_scraping_script.R) contains the code I use to extract and clean data from the webpage.
 
